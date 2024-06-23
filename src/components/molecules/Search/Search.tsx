@@ -3,7 +3,7 @@ import {useNavigate} from 'react-router-dom';
 import {fetchSearchDataApi} from '../../../services/api';
 import './Search.styles.css';
 export const SearchComponent = () => {
-  const [searchResult, setSearchResult] = useState([]);
+  const [, setSearchResult] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
 
